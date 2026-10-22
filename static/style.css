@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: indigo;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: darkorange;
+}
+
+p {
+  font-size: 1.2em;
+  color: limegreen;
+}
+
+.card-display {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+#yourCard {
+  max-width: 10em;
+  padding: 1em;
+}

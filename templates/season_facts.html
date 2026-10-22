@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Season Facts{% endblock %}
+
+{% block content %}
+<h1>Season Facts</h1>
+<ul>
+{% for season, fact in facts.items() %}
+    <li><strong>{{ season }}:</strong> {{ fact }}</li>
+{% endfor %}
+</ul>
+<p><a href="{{ url_for('activities') }}">See seasonal activities</a></p>
+{% endblock %}
